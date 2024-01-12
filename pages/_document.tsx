@@ -11,24 +11,24 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="icon" href="/favicon.ico" />
           {/* Meta Tags */}
-          <meta name="title" content="Nilanchal" key="title" />
+          <meta name="title" content="Navneet" key="title" />
           <meta
             name="description"
             key="description"
-            content="Nilanchal Patra Portfolio"
+            content="Navneet Portfolio"
           />
           <meta property="og:type" key="ogtype" content="website" />
-          <meta property="og:url" key="ogurl" content="https://nilanchal-portfolio.vercel.app/" />
-          <meta property="og:title" key="ogtitle" content="Nilanchal Portfolio" />
+          <meta property="og:url" key="ogurl" content="https://portfolio-wine-beta-76.vercel.app/" />
+          <meta property="og:title" key="ogtitle" content="Navneet Portfolio" />
           <meta
             property="og:description"
             key="ogdescription"
-            content="Nilanchal Portfolio Made in Next.JS"
+            content="Navneet Portfolio Made in Next.JS"
           />
           <meta
             property="og:image"
             key="ogimage"
-            content="https://nilanchal-portfolio.vercel.app/assets/img/user.jpg"
+            content="https://portfolio-wine-beta-76.vercel.app/assets/img/user.jpg"
           />
 
           {/* <!-- Twitter --> */}
@@ -40,22 +40,22 @@ export default class MyDocument extends Document {
           <meta
             property="twitter:url"
             key="twitterurl"
-            content="https://nilanchal-portfolio.vercel.app/"
+            content="https://portfolio-wine-beta-76.vercel.app/"
           />
           <meta
             property="twitter:title"
             key="twittertitle"
-            content="Nilanchal Portfolio"
+            content="Navneet Portfolio"
           />
           <meta
             property="twitter:description"
             key="twitterdesc"
-            content="Nilanchal Portfolio Made in Next.JS"
+            content="Navneet Portfolio Made in Next.JS"
           />
           <meta
             property="twitter:image"
             key="twitterimage"
-            content="https://nilanchal-portfolio.vercel.app/assets/img/user.jpg"
+            content="https://portfolio-wine-beta-76.vercel.app/assets/img/user.jpg"
           />
         </Head>
         <body>
