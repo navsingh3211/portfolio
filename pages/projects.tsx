@@ -8,10 +8,10 @@ import * as config from '@/config/index';
 export default function projects() {
   const projectData = {
     project1: {
-      title: 'Question-Bank-Manegement',
+      title: 'My projects',
       subTitle: 'Made In LAMP stack',
       desc: 'Used PHP, HTML, CSS , JavaScript, Git, MySQL,. This project in Github repo.',
-      link: 'https://github.com/Nilanchal9437/Question-Bank-Manegement',
+      link: 'https://github.com/navsingh3211?tab=repositories',
       linkText: 'Github Link',
       stacks: [
         { title: 'PHP', color: 'text-red-200' },
@@ -20,21 +20,21 @@ export default function projects() {
         { title: 'HTML', color: 'text-yellow-200' },
         { title: 'CSS', color: 'text-green-200' },
       ],
-    },
-    project2: {
-      title: 'Trello App',
-      subTitle: 'Made in MERN stack',
-      desc: 'Used JavaScript, HTML, CSS , Node.js, Express.js, Mongo-DB, React.js. This project in Github repo.',
-      link: 'https://github.com/Nilanchal9437/Trello-Mern-App',
-      linkText: 'Github Link',
-      stacks: [
-        { title: 'Node.js', color: 'text-red-200' },
-        { title: 'Express.js', color: 'text-blue-200' },
-        { title: 'Mongo-DB', color: 'text-gray-200' },
-        { title: 'React.js', color: 'text-yellow-200' },
-        { title: 'MUI', color: 'text-green-200' },
-      ],
-    },
+    }
+    // project2: {
+    //   title: 'Trello App',
+    //   subTitle: 'Made in MERN stack',
+    //   desc: 'Used JavaScript, HTML, CSS , Node.js, Express.js, Mongo-DB, React.js. This project in Github repo.',
+    //   link: 'https://github.com/Nilanchal9437/Trello-Mern-App',
+    //   linkText: 'Github Link',
+    //   stacks: [
+    //     { title: 'Node.js', color: 'text-red-200' },
+    //     { title: 'Express.js', color: 'text-blue-200' },
+    //     { title: 'Mongo-DB', color: 'text-gray-200' },
+    //     { title: 'React.js', color: 'text-yellow-200' },
+    //     { title: 'MUI', color: 'text-green-200' },
+    //   ],
+    // },
   };
 
   return (
@@ -55,14 +55,14 @@ export default function projects() {
             linkText={projectData.project1.linkText}
             stacks={projectData.project1.stacks}
           />
-          <ProjectCards
+          {/* <ProjectCards
             title={projectData.project2.title}
             subTitle={projectData.project2.subTitle}
             desc={projectData.project2.desc}
             link={projectData.project2.link}
             linkText={projectData.project2.linkText}
             stacks={projectData.project2.stacks}
-          />
+          /> */}
         </div>
       </Layout>
     </>
