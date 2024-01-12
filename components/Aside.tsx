@@ -53,7 +53,7 @@ export default function Aside() {
             </Link>
             <div className="flex gap-x-2 items-center">
               <IoStorefrontOutline className="flex-none text-gray-500" />{' '}
-              @Jagatpur, Ipicol-Square, Mahanadi Nagar
+              Siwan,Bihar pincode-841241
             </div>
             <Link href={`tel:${config.CONTACT}`}>
               <div className="flex gap-x-2 items-center">

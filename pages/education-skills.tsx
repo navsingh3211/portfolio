@@ -24,24 +24,24 @@ export default function education() {
         <div className="flex flex-col gap-4">
           <EducationCard
             degree="Bachelor of Technology"
-            major="Electronics & Telecommunication Engineering"
-            institute="AJAY BINAY INSTITUTE OF TECHNOLOGY"
-            year="2018 – 2022"
-            grade="CGPA 8.68"
+            major="Electronics & communication Engineering"
+            institute="HERITAGE INSTITUTE OF TECHNOLOGY"
+            year="2016 - 2020"
+            grade="CGPA 7.02"
           />
           <EducationCard
-            degree="Council of Higher Secondary Education"
+            degree="BSEB"
             major="12th Science"
-            institute="Cuttack College"
-            year="2016 – 2018"
-            grade="PERCENT 47.74%"
+            institute="Raja singh college"
+            year="2013 - 2015"
+            grade="PERCENT 71.2%"
           />
           <EducationCard
-            degree="Central Board of Secondary Education"
+            degree="BSEB"
             major="10th (Matriculation)"
-            institute="Kendriya Vidyalaya No.2 Cuttack"
-            year="2006 – 2016"
-            grade="CGPA 6.68"
+            institute="Jay Praksh Ishwari H/S"
+            year="2003 – 2013"
+            grade="PERCENT 86.6%"
           />
         </div>
 
@@ -52,11 +52,9 @@ export default function education() {
             <h3 className="text-lg font-semibold ">Frontend </h3>
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="HTML5" cname="bg-green-100 py-1 " />
-            <Pills text="CSS3" cname="bg-blue-100 py-1" />
+            <Pills text="HTML" cname="bg-green-100 py-1 " />
+            <Pills text="CSS" cname="bg-blue-100 py-1" />
             <Pills text="JavaScript" cname="bg-purple-100 py-1" />
-            <Pills text="TypeScript" cname="bg-red-100 py-1" />
-            <Pills text="NextJS" cname="bg-pink-100 py-1" />
             <Pills text="ReactJS" cname="bg-yellow-100 py-1 " />
           </div>
 
@@ -68,9 +66,7 @@ export default function education() {
             <Pills text="Node.js" cname="bg-blue-100 py-1" />
             <Pills text="Express.js" cname="bg-gray-100 py-1" />
             <Pills text="MySQL" cname="bg-blue-100 py-1" />
-            <Pills text="Prisma" cname="bg-red-100 py-1" />
             <Pills text="MongoDB" cname="bg-yellow-100 py-1 " />
-            <Pills text="PostgreSQL" cname="bg-purple-100 py-1 " />
             <Pills text="REST API" cname="bg-green-100 py-1 " />
           </div>
 
@@ -80,27 +76,10 @@ export default function education() {
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
             <Pills text="VS-code" cname="bg-red-100 py-1 " />
-            <Pills text="TailwindCSS" cname="bg-purple-100 py-1 " />
-            <Pills text="Bulma" cname="bg-pink-100 py-1 " />
-            <Pills text="Bootstrap" cname="bg-gray-100 py-1 " />
-            <Pills text="MUI" cname="bg-green-100 py-1 " />
             <Pills text="Git" cname="bg-indigo-100 py-1 " />
             <Pills text="Github" cname="bg-blue-100 py-1 " />
           </div>
 
-          <div className="flex gap-2 items-center mt-6">
-            <IoDiceOutline className="flex-none text-xl" />
-            <h3 className="text-lg font-semibold ">Design & Others </h3>
-          </div>
-          <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="Google Analytics" cname="bg-blue-100 py-1 " />
-            <Pills text="Vercel" cname="bg-red-100 py-1 " />
-            <Pills text="DigitalOcean" cname="bg-pink-100 py-1 " />
-            <Pills text="MS Office" cname="bg-gray-100 py-1 " />
-            <Pills text="NGINX" cname="bg-green-100 py-1 " />
-            <Pills text="PM2" cname="bg-red-100 py-1 " />
-            <Pills text="Figma" cname="bg-yellow-100 py-1 " />
-          </div>
 
           <div className="flex gap-2 items-center mt-6">
             <IoPersonOutline className="flex-none text-xl" />

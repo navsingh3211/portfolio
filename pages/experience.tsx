@@ -16,7 +16,7 @@ export default function skillsAndExperience() {
         <h3 className="text-lg font-semibold mt-3">Experience</h3>
         <InternshipCard
           title="Anandpushp Technologies Private Limited"
-          date="June 2023 –  Present"
+          date="August 2021 –  Present"
           place="Software Developer"
           desc={
             <div>
@@ -28,102 +28,45 @@ export default function skillsAndExperience() {
               <br />
               1. Jobs In Education (Link:- "jobsineducation.net"):-
               <br /> <br />
-              • In this project I am developing and optimizing the application.
-              dynamic sitemap generation.
+              • This application is for job seekers.Something like naukari.com.
               <br />
-              • Using React-Query server-side API call management. Writing
-              efficient coding with reusable components.
+              • item It has three panel (Admin,Seeker,Employer).
               <br />
-              • Create Server-side application more faster and better
-              performance on the light house score rating.
+              • I design Restful Apis,Writing Mysql and Mongodb queries to achieve different features.
               <br />
-              • Managing cookies system on both server-side and client-side.
+              • Created different database schema to achive different functionality and features.
               <br />
-              • Developing Client-Side, Server-Side, Static-Side and Incremental
-              Static Generation in Next.js.
+              • Created different Push notification on email and whatsapp by calling salesforce api.
               <br />
-              • Using REST API integration on Next.js app and error handling.
+              • Implemented S3 and CDN to upload,get and delete images,videos.
+              <br />
+              • Different Scheduler and crons for triggering some notification or performing some action.
               <br />
               <br />
               <br />
               2. Agorae (Link:- "agorae.app"):-
               <br /> <br />
-              • In this project I have working in one micro service frontend
-              that is inventory management system.
+              • In this Project ,i have worked on inventory(like e-commerce)  which a sub-part of Agorae project.
               <br />
-              • Here I am creating "Frontend Architecture" with auth flow using
-              "Next.js 14".
+              • In this Project,Any admin from a institute can add the product and Staff or student of that institute can buy the product..
               <br />
-              • Using "MUI" creating UI designing with global theme management.
+              • Created Database design and  Schemas for this project by doing R n D by myself.
               <br />
-              • Using "redux-toolkit" managing global state and reuse it in the
-              whole application.
+              • Created diffreent function to handle backend and front errors.
               <br />
-              • Using "yup" and "Formik" proper schema and form validation and
-              proper API call.
-              <br />
-              • Using "Axios" proper globally manage API calls in the frontend.
-              <br />
-              • Creating re-usable code in pages and proper code optimization.
-              <br />
-              • Here I have working in the full Admin pannel section and handle
-              frontend.
-              <br />
+              
             </div>
           }
           link="https://www.jobsineducation.net/"
           linkText="Product Link"
         />
-        <InternshipCard
-          title="Appstone Pvt. Ltd"
-          date="Jan 2022 –  June 2023"
-          place="Associate Software Developer"
-          desc={
-            <div>
-              Bhubaneswar, Odisha India · Remote
-              <br />
-              <br />
-              • Worked on MERN stack projects called :-
-              <br />
-              <br />
-              1. "Nextstacks" ( E-learning platform, upskilling platform
-              provides online training and mentorship to help you advance your
-              programming language skills and prepare for a career in technology
-              ).
-              <br />
-              2. "Drsignet" ( DrSignet App. One App for all medical needs. Book
-              doctors,diagnostics tests and order medicines from this
-              application ).
-              <br />
-              3. "ImGrows" ( ImGrows is one of the first platforms from India
-              that offers a one-stop solution for ESG Assessment, Monitoring &
-              Reporting. Im Grows helps businesses understand their current
-              position on the ESG landscape by recognising their current impact,
-              developing their ESG strategy and improving their ESG ratings,
-              thereby, making their businesses more sustainable and contribute
-              to the global push to "Net Zero" ).
-              <br />
-              • Improved efficient and optimized coding.
-              <br />
-              • Resolved several bugs in these applications making them failure
-              proof.
-              <br />
-              • Application deployment in digital ocean server and document and
-              image upload in digital spaces.
-              <br />• REST API integration with Postman testing.
-              <br />
-            </div>
-          }
-          link="https://nextstacks.hashnode.dev/"
-          linkText="Product Link"
-        />
 
-        <h3 className="text-lg font-semibold mt-3">Internships</h3>
+        <h3 className="text-lg font-semibold mt-3">Company Traning</h3>
         <MentorshipCard
-          org="Appstone Pvt. Ltd"
-          date="Jul 2021 –  Dec 2021"
+          org="Anandpushp Technologies Private Limited"
+          date="June 2021 –  Aug 2021"
           desig="Software Developer Intern"
-          desc="I have developing and designing web applications. This opportunity give me experience to work on client projects. This experience boosted my career. Here  basically I have create web applications using React.js, Next.js, Redux, React-Query, Node.js, Express.js, Mongo-DB, Material-UI, CSS, HTML, JavaScript etc."
+          desc="I learnt Node Js,Mongodb,PHP,SQL,DBMS,AJEX,CI,HTML,CSS And JavaScript."
           link="https://nextstacks.hashnode.dev/"
           linkText="Link"
         />
