@@ -6,7 +6,7 @@
 </p>
 
 <div align="center">
-<h1 style="margin-bottom:-10px;">Nilanchal Patra Portfolio</h1>
+<h1 style="margin-bottom:-10px;">Navneet Singh Portfolio</h1>
 <br>
 </div>
  
